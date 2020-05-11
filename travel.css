@@ -1,0 +1,45 @@
+body{
+	background-color: #f0baff;
+}
+
+main{
+
+	display: grid;
+	margin: 50px 450px;
+	grid-gap: 24px;
+	grid-template-rows: 225px 225px 225px 225px;
+	grid-template-columns: 180px 180px 180px 180px;
+	color: white;
+	font-family: Arial;
+
+
+}
+
+#d1{
+	background-color: #c225ad;
+		grid-column-start: 1; grid-column-end: 2;
+		grid-row-start: 1; grid-row-end: 2;
+		border-radius: 4px;
+		padding: 10px 0px 0px 15px;
+}
+#d2{
+	background-color: #2a87de;
+	grid-column-start: 2; grid-column-end: 3;
+	grid-row-start: 1; grid-row-end: 2;
+	border-radius: 4px;
+	padding: 10px 0px 0px 15px;
+}
+#d3{
+	background-color: #3dbab6;
+	grid-column-start: 1; grid-column-end: 2;
+	grid-row-start: 2; grid-row-end: 3;
+	border-radius: 4px;
+	padding: 10px 0px 0px 15px;
+}
+#d4{
+	background-color: #6eab43;
+	grid-column-start: 2; grid-column-end: 3;
+	grid-row-start: 2; grid-row-end: 3;
+	border-radius: 4px;
+	padding: 10px 0px 0px 15px;
+}
